@@ -59,7 +59,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  sliver_snap: ^1.2.0
+  sliver_snap: ^1.2.1
 ```
 
 or you can add the latest version from the command line:
