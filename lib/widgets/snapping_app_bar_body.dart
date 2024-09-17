@@ -66,15 +66,24 @@ class SnappingAppBarBody extends StatelessWidget {
               bottom: bottom,
               expandedHeight: expandedContentHeight,
               collapsedHeight: collapsedBarHeight,
+              toolbarHeight: collapsedBarHeight,
               centerTitle: false,
               pinned: pinned,
               elevation: elevation,
               forceElevated: forceElevated,
+              forceMaterialTransparency: true,
               titleSpacing: 0,
               title: AnimatedOpacity(
                 duration: const Duration(milliseconds: 200),
                 opacity: isCollapsed ? 1 : 0,
-                child: collapsedBar,
+                child: ColoredBox(
+                  color: collapsedBackgroundColor ?? Colors.white,
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: collapsedBarHeight,
+                    child: collapsedBar,
+                  ),
+                ),
               ),
               automaticallyImplyLeading: automaticallyImplyLeading,
               backgroundColor: isCollapsed
