@@ -70,6 +70,7 @@ class SnappingAppBarBody extends StatelessWidget {
               pinned: pinned,
               elevation: elevation,
               forceElevated: forceElevated,
+              titleSpacing: 0,
               title: AnimatedOpacity(
                 duration: const Duration(milliseconds: 200),
                 opacity: isCollapsed ? 1 : 0,
