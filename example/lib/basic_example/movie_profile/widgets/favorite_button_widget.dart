@@ -14,7 +14,9 @@ class FavoriteButtonWidget extends StatelessWidget {
           Icons.favorite_outline,
           color: Colors.black,
         ),
-        onPressed: () {},
+        onPressed: () {
+          debugPrint("Fav clicked");
+        },
       ),
     );
   }
