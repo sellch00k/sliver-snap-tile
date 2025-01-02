@@ -1,8 +1,9 @@
 
-import 'package:example/basic_example/models/index.dart';
-import 'package:example/basic_example/movie_profile/index.dart';
 import 'package:flutter/material.dart';
 import 'package:sliver_snap/sliver_snap.dart';
+
+import '../../models/index.dart';
+import 'outlined_chip.dart';
 
 class ExpandedAppBarContent extends StatelessWidget {
   const ExpandedAppBarContent({

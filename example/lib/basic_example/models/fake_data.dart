@@ -1,5 +1,5 @@
 
-import 'package:example/basic_example/models/index.dart';
+import 'movie_details.dart';
 
 class FakeData {
   static const _imageURL = "https://image.tmdb.org/t/p/original";

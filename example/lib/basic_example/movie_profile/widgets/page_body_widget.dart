@@ -1,6 +1,8 @@
-import 'package:example/basic_example/models/index.dart';
-import 'package:example/basic_example/movie_profile/index.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/index.dart';
+import 'favorite_button_widget.dart';
+import 'watch_now_button_widget.dart';
 
 /// Shows the body of the movie details
 ///includes the watch now, favorite buttons and the movie introduction

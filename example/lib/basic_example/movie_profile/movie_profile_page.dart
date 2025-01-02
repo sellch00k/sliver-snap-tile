@@ -1,8 +1,12 @@
-import 'package:example/basic_example/models/index.dart';
-import 'package:example/basic_example/movie_profile/widgets/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:sliver_snap/sliver_snap.dart';
+
+import '../models/index.dart';
+import 'widgets/blurred_backdrop_image.dart';
+import 'widgets/bottom_bar_widget.dart';
+import 'widgets/expanded_app_bar_content.dart';
+import 'widgets/page_body_widget.dart';
 
 class MovieProfilePage extends HookWidget {
   const MovieProfilePage({super.key, required this.movieDetails});
